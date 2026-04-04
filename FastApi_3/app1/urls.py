@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Request
 
-router = APIRouter(prefix='app1')
+router = APIRouter(prefix='/app1')
 
 @router.get('/')
 async def app1_list():
